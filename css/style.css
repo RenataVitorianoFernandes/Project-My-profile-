@@ -1,7 +1,8 @@
 body {
-    background: #f2b4e8;
+    background: #6d5c6a;
     font-family: Verdana;
     text-align: center;
+    color: #ffffff;
 }
 
 .photo {
@@ -10,16 +11,23 @@ body {
 }
 
 #title, .subtitle, .post_title {
-    color: brown
+    color: rgb(17, 12, 12)
+}
+
+.subtitle, .post_title {
+    text-decoration: underline;
 }
 
 #title {
     font-size: 40px;
     text-transform: uppercase;
+    border: #000 3px solid;
 }
 
 a {
-    color: #505050;
+    color: hsl(240, 54%, 5%);
+    font-weight: 700px;
+    text-decoration: none;
 }
 
 .post_title {
@@ -30,15 +38,18 @@ a {
 }
 
 .post {
-    background: #f2b4e8;
-    padding: 10px;
+    background: #6d5c6a;
+    padding: 1%;
     border: 3px solid #000;
-    margin: 10px;
+    margin: 3%;
 }
 
 .post_image {
-    margin-bottom: 15px;
-    background-color: ;
+    margin: auto
+    width: 60%;
+    margin-top: ;
+    line-height: 50%;
+    
 }
 
 .language_list {
@@ -50,9 +61,29 @@ a {
     float: left;
     border-width: 5px;
     border-style: solid;
-    width: 33,33%;
+    width: 33, 33%;
     text-align: left;
     margin: 1%;
-   
-    
 }
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.principal a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.principal {
+    background-color: #505050;
+    height: 40px;
+}
+
+.principal li{
+    display: inline-block;
+    margin: 10px 50px;   
+    
+
